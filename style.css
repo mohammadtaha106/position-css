@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* position: relative; */
+  margin-top: 90px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 80px;
+  cursor: pointer;
+  margin-right: 17px;
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  box-shadow: 7px 7px 7px 0px rgb(144, 141, 141);
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  height: 35px;
+  background-color: #f6f6f8;
+  position: st;
+  top: 0;
+
+}
+
+.fa-regular {
+
+  margin-left: 10px;
+
+}
+
+.fa-solid {
+
+  margin-left: 15px;
+
+
+}
+
+.list-items {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 12px;
+}
+
+.img {
+  padding-right: 20px;
+}
+
+/* .icons {
+    font-size: 19px;
+} */
+
+.logo {
+  width: 150px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-right: 90px;
+  margin-left: 105px;
+}
+
+@media(max-width:1202px) {
+  ul {
+    display: none;
+  }
+
+
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 39px;
+}
+
+.fa-user {
+  font-size: 30px;
+  color: rgb(69, 66, 66);
+}
+
+.fa-heart {
+  font-size: 30px;
+  color: rgb(69, 66, 66);
+}
+
+.fa-cart-shopping {
+  font-size: 30px;
+  color: rgb(69, 66, 66);
+}
+
+.bell-notifaction {
+  color: #f6f6f8;
+  position: relative;
+}
+
+.bell-notifaction::after {
+  content: attr(current-count);
+  position: absolute;
+  top: -6px;
+  right: -19%;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  border: 2px solid white;
+}
+
+.fa-magnifying-glass {
+  font-size: 30px;
+  color: rgb(69, 66, 66);
+}
+
+.bg-img {
+  width: 1349px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+
+
+.product {
+  position: relative;
+  margin-right: 18px;
+  margin-top: 18px;
+  cursor: pointer;
+
+}
+
+button {
+  position: absolute;
+  border: 1px solid white;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  bottom: 0;
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+
+
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.btn{
+  padding-right: 40px;
+  padding-left: 40px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+.product2{
+  position: relative;
+  margin-left: 18px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+.hero{
+  margin-top: 25px;
+
+}
+button:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  transition: 0.4s;
+}
+.hover:hover{
+  transition: transform 1s ease;
+  transform: scale(0.9);
+}
+.trend{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-top: 18px;
+}
+.fa-bell{
+  margin-right: 8px;
+  font-size: 17px;
+}
+.notify{
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  border: none;
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 0;
+  z-index: 12;
+  right: 0;
+  width: 180px;
+  margin-bottom: 90px;
+  cursor: pointer;
+  
+
+ 
+}
+.baap{
+  width: 400px;
+  padding-right:40px;
+}
+.notify-btn{
+  border: none;
+  background-color:#0084f6 ;
+  color: white;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  padding: 12px;
+  margin-top: 135px;
+
+}
+.notify-btn:hover{
+  background-color:#2899fd ;
+  border: 1px solid #2899fd ;
+}
+.wa{
+  width: 400px;
+
+}
+.whatsapp{  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  border: none;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  right: 0;
+  height: 180px;
+
+  margin-bottom: 90px;
+  cursor: pointer;}
+  .whatsapp-btn{
+    border: none;
+    background-color:#00d066 ;
+    color: white;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 12px;
+    margin-top: 315px;
+  }
+  .whatsapp-btn:hover{
+    background-color:#0bc163 ;
+    border: 1px solid #00d066 ;
+  }
+.fa-whatsapp{
+  margin-right: 8px;
+  font-size: 17px;
+}
+.list-items {
+  position: relative;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.list-items::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color:#00d066  ; 
+  transition: width 0.4s ease; 
+}
+
+.list-items:hover::after {
+  width: 100%;
+}
+.list-items:hover{
+  color:#08743c ;
+}
+.trend {
+font-size: 40px;
+  font-weight: 600;  
+color:  black;
+  overflow: hidden;
+  /* border-right: 2px solid  #006fb7 ;  */
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.1em;
+  animation: typing 1s steps(10) infinite  alternate-reverse;
+  height: 32px; 
+  line-height: 20px; 
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.para{
+  display: inline-block;
+
+}
